@@ -23,9 +23,9 @@ Implementação em Python para resolver o problema do Produtor e Consumidor. Ess
 
   **Construtor:**
 
-```python
+  ```python
 Numero(numero: int)
-```
+  ```
 
 
   - `numero` : número inicial do produto.
@@ -38,9 +38,9 @@ Numero(numero: int)
 
   **Construtor:**
 
-```python
+  ```python
 Produtor(numero: Numero, nome: str, [limit: int], [sleep_time: int])
-```
+  ```
 
   - `numero` : instância do produto;
   - `nome` : nome da Thread;
@@ -55,9 +55,9 @@ Produtor(numero: Numero, nome: str, [limit: int], [sleep_time: int])
 
   **Construtor:**
 
-```python
+  ```python
 Consumidor(numero: Numero, nome: str, [limit: int], [sleep_time: int])
-```
+  ```
 
   - `numero` : instância do produto;
   - `nome` : nome da Thread;
