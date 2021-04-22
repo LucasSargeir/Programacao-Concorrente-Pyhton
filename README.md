@@ -8,7 +8,8 @@ Implementação em Python para resolver o problema do Produtor e Consumidor. Ess
 
 
 
-**Dependências:**
+**Dependências:** 
+
 
 - threading
 - time
@@ -23,14 +24,14 @@ Implementação em Python para resolver o problema do Produtor e Consumidor. Ess
 
   **Construtor:**
 
-```python
-Numero(numero: int)
-```
-
+    ```python
+  Numero(numero: int)
+    ```
 
   - `numero` : número inicial do produto.
-
+  
     
+
 
 - <u>Produtor</u>
 
@@ -38,15 +39,14 @@ Numero(numero: int)
 
   **Construtor:**
 
-```python
-Produtor(numero: Numero, nome: str, [limit: int], [sleep_time: int])
-```
+    ```python
+  Produtor(numero: Numero, nome: str, [limit: int], [sleep_time: int])
+    ```
 
   - `numero` : instância do produto;
   - `nome` : nome da Thread;
   - `limit` : maior número que o produtor pode produzir (condição para parada). Se nenhum valor for passado o _default_ será 10;
   - `sleep_time` : o tempo de _delay_, em segundos, após produzir um item e ele ser consumido, para produzir  outro. Se nenhum tempo por passado p _default_ será 1 segundo.
-
 
 
 - <u>Consumidor</u>
@@ -55,9 +55,9 @@ Produtor(numero: Numero, nome: str, [limit: int], [sleep_time: int])
 
   **Construtor:**
 
-```python
-Consumidor(numero: Numero, nome: str, [limit: int], [sleep_time: int])
-```
+    ```python
+  Consumidor(numero: Numero, nome: str, [limit: int], [sleep_time: int])
+    ```
 
   - `numero` : instância do produto;
   - `nome` : nome da Thread;
