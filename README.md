@@ -23,7 +23,7 @@ Implementação em Python para resolver o problema do Produtor e Consumidor. Ess
 
   **Construtor:**
 
-```pyth
+```python
 Numero(numero: int)
 ```
 
