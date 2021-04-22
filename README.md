@@ -23,9 +23,10 @@ Implementação em Python para resolver o problema do Produtor e Consumidor. Ess
 
   **Construtor:**
 
-  ```pyth
-  Numero(numero: int)
-  ```
+```pyth
+Numero(numero: int)
+```
+
 
   - `numero` : número inicial do produto.
 
@@ -37,10 +38,10 @@ Implementação em Python para resolver o problema do Produtor e Consumidor. Ess
 
   **Construtor:**
 
-  ```python
+```python
 Produtor(numero: Numero, nome: str, [limit: int], [sleep_time: int])
-  ```
-  
+```
+
   - `numero` : instância do produto;
   - `nome` : nome da Thread;
   - `limit` : maior número que o produtor pode produzir (condição para parada). Se nenhum valor for passado o _default_ será 10;
@@ -54,9 +55,9 @@ Produtor(numero: Numero, nome: str, [limit: int], [sleep_time: int])
 
   **Construtor:**
 
-  ```python
-  Consumidor(numero: Numero, nome: str, [limit: int], [sleep_time: int])
-  ```
+```python
+Consumidor(numero: Numero, nome: str, [limit: int], [sleep_time: int])
+```
 
   - `numero` : instância do produto;
   - `nome` : nome da Thread;
